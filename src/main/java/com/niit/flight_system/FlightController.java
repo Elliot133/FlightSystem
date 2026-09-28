@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Controller
-public class FlightController {
+public cclass FlightController {
 
     @GetMapping("/")
     public String viewDashboard(Model model) {
@@ -24,6 +24,6 @@ public class FlightController {
 
         model.addAttribute("activeFlights", flights);
 
-        return "index";
+        return "index"; //The main reason for this project 
     }
 }
