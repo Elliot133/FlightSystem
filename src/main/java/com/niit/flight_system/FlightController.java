@@ -13,7 +13,7 @@ public class FlightController {
     public String viewDashboard(Model model) {
 
         // Mock data to simulate our Flight system
-        model.addAttribute("Username", "Instructor Wisdom");
+        model.addAttribute("Username", "Instructor Wizzy");
         model.addAttribute("systemStatus", "Operational");
 
         List<String> flights = Arrays.asList(
